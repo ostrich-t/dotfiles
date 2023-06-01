@@ -2,9 +2,16 @@
 	name = cb50one
 	email = t.nakajima.busi@gmail.com
 [alias]
+	a = !git add -A && git status
+	au = !git add -u && git status
 	st = status
         b = branch
         co = checkout
-        com = commit
+	cm = commit
+	cam = commit --amend
+	cancel = reset --soft HEAD^
+	diffs = diff --cached
+	ss = stash save
+	sp = stash pop
 [init]
 	defaultBranch = main
