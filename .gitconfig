@@ -1,0 +1,10 @@
+[user]
+	name = cb50one
+	email = t.nakajima.busi@gmail.com
+[alias]
+	st = status
+        b = branch
+        co = checkout
+        com = commit
+[init]
+	defaultBranch = main
