@@ -1,5 +1,5 @@
 [user]
-	name = cb50one
+	name = ostrich-t
 	email = t.nakajima.busi@gmail.com
 [alias]
 	a = !git add -A && git status
