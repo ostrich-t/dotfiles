@@ -1,5 +1,5 @@
 [user]
-	name = cb50one
+	name = ostrich-t
 	email = t.nakajima.busi@gmail.com
 [alias]
 	a = !git add -A && git status
@@ -11,7 +11,10 @@
 	cam = commit --amend
 	cancel = reset --soft HEAD^
 	diffs = diff --cached
+	sl = stash list
 	ss = stash save
 	sp = stash pop
+	sd = stash drop
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
 [init]
 	defaultBranch = main
